@@ -9,19 +9,17 @@ class BootcampApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.black26,
         appBar: AppBar(
-          elevation: 10.0,
+          elevation: 1.0,
           shadowColor: Colors.black,
-          title: Center(
-              child: Text(
+          title: Text(
                 'Calculator',
                 style: TextStyle(
                     color: Colors.black
                 ),
-              )
-          ),
-          backgroundColor: Colors.black12,
+              ),
+          backgroundColor: Colors.blue,
         ),
         body: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -30,8 +28,27 @@ class BootcampApp extends StatelessWidget {
               Container(
                 width: 500,
                 height: 200,
+                child: Padding(
+                  padding: EdgeInsets.fromLTRB(290, 50, 0, 0),
+                  child: Column(
+                    children: [
+                      Text(
+                        '4+4',
+                        style: TextStyle(
+                            fontSize: 50.0
+                        ),
+                      ),
+                      Text(
+                        '=8',
+                        style: TextStyle(
+                            fontSize: 50.0
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
                 decoration: BoxDecoration(
-                    color: Colors.black12,
+                    color: Colors.cyan,
                     borderRadius: BorderRadius.circular(8.0)
                 ),
               ),
@@ -59,7 +76,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.grey,
+                                color: Colors.red[600],
                               ),
                               child: Center(
                                   child: Text(
@@ -81,7 +98,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.blue
                               ),
                               child: Center(
                                   child: Column(
@@ -113,7 +130,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.blue
                               ),
                               child: Center(
                                   child: Text(
@@ -135,7 +152,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.blue
                               ),
                               child: Center(
                                   child: Text(
@@ -228,7 +245,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.blue
                               ),
                               child: Center(
                                   child: Text(
@@ -321,7 +338,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.blue
                               ),
                               child: Center(
                                   child: Text(
@@ -414,7 +431,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.blue
                               ),
                               child: Center(
                                   child: Text(
@@ -485,7 +502,7 @@ class BootcampApp extends StatelessWidget {
                               height: 70,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
-                                  color: Colors.grey
+                                  color: Colors.brown
                               ),
                               child: Center(
                                   child: Text(
